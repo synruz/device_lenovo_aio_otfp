@@ -33,10 +33,9 @@ This branch is for building of the LineageOS 14.1.
  * Youtube
  * HW Decoder
 
-### Not Working:
-* Hotspot (Open Hotspot)
-
 ### Thanks to:
  * Daniel_hk
  * Adam Belamri
  * Sandeep Sethi
+ * Gsandeep
+ * Rohan Taneja
