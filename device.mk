@@ -1,6 +1,5 @@
-
 #
-# Copyright 2017 The LineageOS Project
+# Copyright 2017 The Aim Rom Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -120,6 +119,12 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 #Spn
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/spn-conf.xml:system/etc/spn-conf.xml
+
+#PixlernBlitz_Extra
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/priv-app/K3:system/priv-app/K3
+    $(LOCAL_PATH)/prebuilt/priv-app/KAdiutor:system/priv-app/KAdiutor
+    $(LOCAL_PATH)/prebuilt/priv-app/Snap:system/priv-app/Snap
 
 # Audio
 PRODUCT_COPY_FILES += \
