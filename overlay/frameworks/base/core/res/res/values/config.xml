@@ -81,16 +81,15 @@
 
     <string-array translatable="true" name="config_tether_usb_regexs">
         <item>rndis\\d</item>
-		<item>"rndis\\d"</item>
     </string-array>
 
     <string-array translatable="true" name="config_tether_wifi_regexs">
-        <item>"wlan0"</item>
+        <item>ap\\d</item>
     </string-array>
 
     <string-array translatable="true" name="config_tether_bluetooth_regexs">
         <item>"bt-pan"</item>
-        <item>"bnep\\d"</item>
+        <item>"bt-dun"</item>
     </string-array>
 
     <bool name="config_wifi_background_scan_support">true</bool>
