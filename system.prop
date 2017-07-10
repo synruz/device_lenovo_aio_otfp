@@ -126,3 +126,5 @@ media.sf.omx-plugin=libffmpeg_omx.so
 media.sf.extractor-plugin=libffmpeg_extractor.so
 media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
+PRODUCT_PROPERTY_OVERRIDES += /
+ ro.aim.maintainer=Ninad Patil
