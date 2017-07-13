@@ -229,3 +229,9 @@ $(call inherit-product, device/lenovo/aio_otfp/configs/common.mk)
 
 # Vendor
 $(call inherit-product, vendor/lenovo/aio_otfp/aio_otfp-vendor.mk)
+
+#AIM_OTA
+PRODUCT_PROPERTY_OVERRIDES += \
+        ro.ota.romname=AIM-ROM \
+        ro.ota.version=$(shell date +"%Y%m%d") \
+        ro.ota.manifest=https://raw.githubusercontent.com/AIMROM/OFFICIAL_DEVICES/N/aio_otfp.xml
