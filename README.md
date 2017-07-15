@@ -1,7 +1,7 @@
 Lenovo K3 Note 
 ==============
 
-This branch is for building of the LineageOS 14.1.
+This branch is for building of the DnD Rom.
 
 # About Device
 
