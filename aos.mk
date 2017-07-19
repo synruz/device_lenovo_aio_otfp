@@ -1,5 +1,5 @@
 #
-# Copyright 2017 The AtomicOS Project
+# Copyright 2017 The Atomic-OS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit Atomic OS custom product configuration
+# Inherit some common Atomic-OS stuff.
 $(call inherit-product, vendor/aos/config/common_full_phone.mk)
 
 # Call device specific makefile
@@ -42,3 +42,10 @@ PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo K3 Note
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+Magisk
+WITH_ROOT  := true
+  
+# AudioFX
+WITH_AUDIOFX := true
+
