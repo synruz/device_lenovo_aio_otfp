@@ -1,5 +1,5 @@
 #
-# Copyright 2017 The LineageOS Project
+# Copyright (C) 2017 DarkNess reDefined Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit Lineage's custom product configuration
+# Inherit some common DarkNEss reDefined stuff.
 $(call inherit-product, vendor/dnd/config/common_full_phone.mk)
 
 # Call device specific makefile
@@ -42,3 +42,10 @@ PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo K3 Note
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+#Dnd Stuffs
+# Magisk\
+WITH_ROOT=true
+
+# AudioFX
+WITH_AUDIOFX=true
